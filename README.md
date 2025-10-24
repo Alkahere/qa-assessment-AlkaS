@@ -4,19 +4,6 @@ This repository contains a **QA assessment project** using **Playwright** and **
 
 ## Project Structure
 
-qa-assessment-AlkaS/
-├── README.md
-├── package.json
-├── tsconfig.json
-├── playwright.config.ts
-├── tests/
-│ └── login.spec.ts
-├── utils/
-│ └── pages/
-│ └── login.page.ts
-└── reports/
-
-
 - `tests/` – Contains all test scripts.  
 - `utils/pages/` – Page Object Model files for reusable page interactions.  
 - `reports/` – Stores test execution reports.  
