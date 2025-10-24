@@ -1,11 +1,39 @@
-"# QA Assessment - Alka S" 
+# QA Assessment - Alka S
+
+This repository contains a **QA assessment project** using **Playwright** and **TypeScript**. It demonstrates a structured testing framework using the **Page Object Model (POM)** design pattern, organized test scripts, and utilities for reusable code.
+
+## Project Structure
+
+qa-assessment-AlkaS/
+├── README.md
+├── package.json
+├── tsconfig.json
+├── playwright.config.ts
+├── tests/
+│ └── login.spec.ts
+├── utils/
+│ └── pages/
+│ └── login.page.ts
+└── reports/
 
 
-#Run a TestCase use this command
-npx playwright test tests/login.spec.ts --headed
+- `tests/` – Contains all test scripts.  
+- `utils/pages/` – Page Object Model files for reusable page interactions.  
+- `reports/` – Stores test execution reports.  
+- `.env` – Environment variables (not committed to GitHub).  
+- `node_modules/`, `test-results/`, `storageState.json` – Ignored by Git.
 
-#Add changes to the repo
-git remote add origin https://github.com/Alkahere/qa-assessment-AlkaS.git
-git branch -M main
-git push -u origin main
+## Features
 
+- **Playwright + TypeScript**: End-to-end testing framework with type safety.  
+- **Page Object Model**: Maintainable and reusable code structure.  
+- **Reports**: Test execution results saved in `reports/`.  
+- **Environment Management**: `.env` used for secrets and configuration.  
+
+## Setup Instructions
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Alkahere/qa-assessment-AlkaS.git
+cd qa-assessment-AlkaS
