@@ -42,4 +42,16 @@ PASSWORD=your-password
 5. Run tests:
 npx playwright test
 
+# GoTrade QA Assessment Report
+
+## 📄 Test Report Access
+
+- **PDF Test Report:** [Open GoTrade Test Report](https://drive.google.com/file/d/1Fvw4SQnQiypf6u100wSHUIKfz3c3hJ9-/view?usp=sharing)
+- **Playwright HTML Report:** [Open Interactive Report](./playwright-report/index.html)
+
+## 🧪 Run Tests
+```bash
+npx playwright show-report
+
+
 
