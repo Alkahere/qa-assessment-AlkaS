@@ -24,3 +24,22 @@ This repository contains a **QA assessment project** using **Playwright** and **
 ```bash
 git clone https://github.com/Alkahere/qa-assessment-AlkaS.git
 cd qa-assessment-AlkaS
+
+2. Install dependencies:
+
+Install all required Node.js packages:
+
+```bash
+npm install
+
+npx playwright install
+
+3. Set up environment variables:
+
+EMAIL=your-username
+PASSWORD=your-password
+
+5. Run tests:
+npx playwright test
+
+
