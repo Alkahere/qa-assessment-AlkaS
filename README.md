@@ -46,8 +46,8 @@ npx playwright test
 
 ## 📄 Test Report Access
 
-- **PDF Test Report:** [Open GoTrade Test Report](https://drive.google.com/file/d/1Fvw4SQnQiypf6u100wSHUIKfz3c3hJ9-/view?usp=sharing)
-- **Playwright HTML Report:** [Open Interactive Report](./playwright-report/index.html)
+- **PDF Test Report:** (https://drive.google.com/file/d/1Fvw4SQnQiypf6u100wSHUIKfz3c3hJ9-/view?usp=sharing)
+- **Playwright HTML Report:** (./playwright-report/index.html)
 
 ## 🧪 Run Tests
 ```bash
